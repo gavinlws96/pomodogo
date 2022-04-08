@@ -1,0 +1,19 @@
+.header-options {
+  display: flex;
+  align-items: center;
+  background-color: #e1756f;
+  color: white;
+  padding: 0.4em 0.6em;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.icon {
+  padding-right: 4px;
+  background-color: inherit;
+}
+
+span {
+  background-color: inherit;
+  font-size: 0.8em;
+}

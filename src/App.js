@@ -1,9 +1,13 @@
 import { Fragment } from "react";
 
+import Header from "./components/Header/Header";
+
+import "./App.css";
+
 const App = () => {
   return (
     <Fragment>
-      <h1>Hey</h1>
+      <Header />
     </Fragment>
   );
 };
