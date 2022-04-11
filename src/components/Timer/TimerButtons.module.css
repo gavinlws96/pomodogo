@@ -1,0 +1,43 @@
+.timer-buttons {
+  background-color: inherit;
+  min-width: 280px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  height: 60px;
+  width: 200px;
+  background-color: white;
+  color: #d8554f;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.5em;
+  font-weight: 700;
+  box-shadow: 0 5px 0 0 #e3e4e9;
+  margin-bottom: 5px;
+}
+
+.clicked {
+  box-shadow: none;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.redo,
+.forward {
+  margin-top: 5px;
+  color: white;
+  background-color: inherit;
+  opacity: 0;
+  visibility: hidden;
+  transition: 100ms;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: 250ms ease-in;
+}

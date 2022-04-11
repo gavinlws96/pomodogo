@@ -1,0 +1,20 @@
+.timer-options {
+  background-color: #e1756f;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.timer-options span {
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.active {
+  background-color: #bc5753;
+}
