@@ -3,12 +3,12 @@ import HeaderOptions from "./HeaderOptions";
 
 import classes from "./Header.module.css";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header>
       <div className={classes.header}>
         <Logo />
-        <HeaderOptions />
+        <HeaderOptions settingHandler={props.settingHandler}/>
       </div>
       <div className={classes.divider} />
     </header>

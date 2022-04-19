@@ -1,0 +1,12 @@
+.tasklist {
+  max-width: 400px;
+  margin: 7vh auto 0;
+}
+
+.divider {
+  height: 1px;
+  border-top: 2px solid white;
+  border-radius: 5px;
+  width: 100%;
+  margin: 10px 0;
+}

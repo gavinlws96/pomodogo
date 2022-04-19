@@ -18,6 +18,7 @@
   font-weight: 700;
   box-shadow: 0 5px 0 0 #e3e4e9;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 
 .clicked {
@@ -34,6 +35,7 @@
   opacity: 0;
   visibility: hidden;
   transition: 100ms;
+  cursor: pointer;
 }
 
 .visible {

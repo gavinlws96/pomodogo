@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { TimerContext } from "../../context/timer-context";
 
 import classes from "./TimeDisplay.module.css";

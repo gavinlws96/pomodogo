@@ -1,0 +1,29 @@
+.details {
+  margin-top: 20px;
+  border-top: 1px solid white;
+  background-color: #e1756f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.details > span {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.8em;
+  padding: 0 5px;
+}
+
+.details > span > span {
+  color: white;
+  font-size: 1.5em;
+  padding-left: 3px;
+  font-weight: 700;
+}
+
+.details .no-task {
+  color: white;
+  font-size: 1.1em;
+  opacity: 1;
+  font-weight: 500;
+}

@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.icon {
+  color: white;
+  background-color: #e1756f;
+  padding: 0.3em;
+  border-radius: 3px;
+}
+
+.header span {
+  font-size: 1em;
+  font-weight: 700;
+  color: white;
+}

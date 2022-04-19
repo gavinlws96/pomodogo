@@ -1,0 +1,121 @@
+.task-form {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin: 10px 0;
+  display: none;
+}
+
+@keyframes expand {
+  0% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+.active {
+  display: block;
+  animation-name: expand;
+  animation-duration: 0.2s;
+}
+
+.task-form * {
+  background-color: white;
+}
+
+.task-form div {
+  margin: 5px 0;
+  border: none;
+  padding: 0 10px;
+}
+
+.task-form .task {
+  margin: 15px 0;
+}
+
+.task input {
+  font-size: 1.2em;
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.task input::placeholder {
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.task-form .counter {
+  margin-bottom: 40px;
+}
+
+.counter span {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.counter p {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.counter p input {
+  border: none;
+  box-sizing: border-box;
+  background-color: rgba(185, 182, 182, 0.2);
+  border-radius: 3px;
+  height: 33px;
+  width: 90px;
+  margin-right: 8px;
+  margin-bottom: 2px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.icon {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 0.3em 0.5em;
+  margin: 2px 1px;
+  box-shadow: 0 2px 0 0px #e3e4e9;
+}
+
+.icon:active {
+  box-shadow: none;
+  margin-top: 4px;
+}
+
+.task-form .options {
+  background-color: rgb(234, 234, 234);
+  margin: 0;
+  padding: 7px 10px;
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.options > button {
+  background-color: rgb(234, 234, 234);
+  border: none;
+  margin: 0 5px;
+  padding: 0.7em 1.4em;
+  border-radius: 5px;
+}
+
+.cancel {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+
+.options .save {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: 500;
+}
