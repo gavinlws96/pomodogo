@@ -1,0 +1,28 @@
+.switch {
+  width: 60px;
+  height: 32px;
+  border-radius: 20px;
+  position: relative;
+  background-color: #bebebe;
+  cursor: pointer;
+}
+
+.switch-button {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50px;
+  background-color: white;
+  transition: left 0.1s;
+}
+
+.switch-active {
+  background-color: #70b559;
+}
+
+.button-active {
+  left: 30px;
+  transition: left 0.1s;
+}

@@ -1,0 +1,113 @@
+.modal {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  background-color: white;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  z-index: 543;
+  overflow-y: auto;
+}
+
+.options-placeholder {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  color: #bababa;
+  font-weight: 600;
+  font-size: 1.4em;
+  justify-content: space-between;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.divider {
+  height: 1px;
+  border-top: 1px solid #e7e7e7;
+  border-radius: 5px;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.timer-field span {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #3d3d3d;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inputs label {
+  font-size: 0.8em;
+  color: #bababa;
+  font-weight: 600;
+}
+
+.inputs input {
+  border: none;
+  box-sizing: border-box;
+  background-color: #e7e7e7;
+  border-radius: 3px;
+  height: 33px;
+  width: 90px;
+  margin-right: 8px;
+  outline: none;
+  padding-left: 10px;
+  color: #3d3d3d;
+}
+
+.switch-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.switch-option span {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #3d3d3d;
+}
+
+.switch-option input {
+  border: none;
+  box-sizing: border-box;
+  background-color: #e7e7e7;
+  border-radius: 3px;
+  height: 33px;
+  width: 65px;
+  outline: none;
+  padding-left: 10px;
+  color: #3d3d3d;
+}
+
+.save-placeholder {
+  background-color: #e7e7e7;
+  padding: 7px 10px;
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.save {
+  border: none;
+  margin: 5px;
+  padding: 0.7em 1.2em;
+  border-radius: 5px;
+  background-color: #2f2e2e;
+  color: white;
+  font-weight: 600;
+  font-size: 0.8em;
+  cursor: pointer;
+}
